@@ -11,3 +11,12 @@
     <%= f.submit %>
   </div>
 <% end %>
+
+<script>
+  $(function() {
+    $('form').submit(function(event) {
+      event.preventDefault();
+      alert('we r hack3rz');
+    })
+  })
+</script>
